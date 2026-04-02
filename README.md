@@ -81,12 +81,6 @@ finance-dashboard/
 │   │   ├── auth.js                # JWT protect + authorize (RBAC)
 │   │   └── validate.js            # Input validation rules
 |   |   └── rateLimiter.js
-|
-├── tests/                       # NEW
-│   ├── auth.test.js
-│   ├── transaction.test.js
-│   └── dashboard.test.js
-|
 │   ├── models/
 │   │   ├── User.js                # User schema
 │   │   └── Transaction.js         # Transaction schema
@@ -101,6 +95,10 @@ finance-dashboard/
 │   │   └── seed.js                # Demo data seeder
 │   ├── app.js                     # Express app setup
 │   └── server.js                  # Entry point
+├── tests/                       # NEW
+│   ├── auth.test.js
+│   ├── transaction.test.js
+│   └── dashboard.test.js
 ├── .env.example
 ├── .gitignore
 ├── package.json
